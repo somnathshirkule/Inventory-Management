@@ -89,6 +89,21 @@
   <ItemGroup>
     <None Include="settings_80px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="settings_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="settings_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="services_480px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="settings_60px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="settings_30px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
