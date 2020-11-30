@@ -2,8 +2,9 @@ F:\Workspace\Inventory-Management\Inventory-Management\bin\Debug\Inventory-Manag
 F:\Workspace\Inventory-Management\Inventory-Management\bin\Debug\Inventory-Management.exe
 F:\Workspace\Inventory-Management\Inventory-Management\bin\Debug\Inventory-Management.pdb
 F:\Workspace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.csprojResolveAssemblyReference.cache
-F:\Workspace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.Form1.resources
 F:\Workspace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.Properties.Resources.resources
 F:\Workspace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.csproj.GenerateResource.Cache
 F:\Workspace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.exe
 F:\Workspace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.pdb
+F:\Workspace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.DbSetting.resources
+F:\Workspace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.Login.resources

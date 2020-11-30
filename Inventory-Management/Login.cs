@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Inventory_Management
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             this.FormBorderStyle = FormBorderStyle.None;
             InitializeComponent();
@@ -41,6 +41,11 @@ namespace Inventory_Management
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -14,7 +14,18 @@ namespace Inventory_Management
     {
         public DbSetting()
         {
+            this.FormBorderStyle = FormBorderStyle.None;
             InitializeComponent();
+        }
+
+        private void DbSetting_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
