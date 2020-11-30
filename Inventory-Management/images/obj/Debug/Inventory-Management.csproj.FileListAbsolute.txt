@@ -1,3 +1,4 @@
+F:\Inventory-Management\Inventory-Management\bin\Debug\Inventory-Management.exe.config
 F:\Workspace\Inventory-Management\Inventory-Management\bin\Debug\Inventory-Management.exe.config
 F:\Workspace\Inventory-Management\Inventory-Management\bin\Debug\Inventory-Management.exe
 F:\Workspace\Inventory-Management\Inventory-Management\bin\Debug\Inventory-Management.pdb
