@@ -30,12 +30,14 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtsevername = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtuser = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtpass = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -62,20 +64,20 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Enter Server name";
             // 
-            // textBox1
+            // txtsevername
             // 
-            this.textBox1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(81, 110);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(261, 29);
-            this.textBox1.TabIndex = 2;
+            this.txtsevername.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtsevername.Location = new System.Drawing.Point(81, 110);
+            this.txtsevername.Name = "txtsevername";
+            this.txtsevername.Size = new System.Drawing.Size(261, 29);
+            this.txtsevername.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(81, 162);
+            this.label3.Location = new System.Drawing.Point(81, 143);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(121, 21);
             this.label3.TabIndex = 3;
@@ -86,39 +88,52 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(81, 251);
+            this.label4.Location = new System.Drawing.Point(81, 212);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(76, 21);
             this.label4.TabIndex = 4;
             this.label4.Text = "Password";
             // 
-            // textBox2
+            // txtuser
             // 
-            this.textBox2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(81, 199);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(261, 29);
-            this.textBox2.TabIndex = 5;
+            this.txtuser.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtuser.Location = new System.Drawing.Point(81, 180);
+            this.txtuser.Name = "txtuser";
+            this.txtuser.Size = new System.Drawing.Size(261, 29);
+            this.txtuser.TabIndex = 5;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.SeaGreen;
             this.button1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(81, 350);
+            this.button1.Location = new System.Drawing.Point(79, 318);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(261, 28);
+            this.button1.Size = new System.Drawing.Size(261, 35);
             this.button1.TabIndex = 6;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox3
+            // txtpass
             // 
-            this.textBox3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(81, 285);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(261, 29);
-            this.textBox3.TabIndex = 7;
+            this.txtpass.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpass.Location = new System.Drawing.Point(81, 250);
+            this.txtpass.Name = "txtpass";
+            this.txtpass.Size = new System.Drawing.Size(261, 29);
+            this.txtpass.TabIndex = 7;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Teal;
+            this.pictureBox1.ErrorImage = global::Inventory_Management.Properties.Resources.multiply_30px;
+            this.pictureBox1.Image = global::Inventory_Management.Properties.Resources.multiply_26px;
+            this.pictureBox1.Location = new System.Drawing.Point(387, -1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(29, 30);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // DbSetting
             // 
@@ -126,18 +141,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(416, 404);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.txtpass);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtuser);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtsevername);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "DbSetting";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DbSetting";
             this.Load += new System.EventHandler(this.DbSetting_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,11 +164,12 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtsevername;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtuser;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtpass;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

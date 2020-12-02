@@ -76,6 +76,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(32, 29);
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -100,6 +101,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 

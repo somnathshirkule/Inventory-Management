@@ -8,3 +8,15 @@ F:\Workspace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Manag
 F:\Workspace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.pdb
 F:\Workspace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.DbSetting.resources
 F:\Workspace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.Login.resources
+D:\WorkSpace\Inventory-Management\Inventory-Management\bin\Debug\Inventory-Management.exe.config
+D:\WorkSpace\Inventory-Management\Inventory-Management\bin\Debug\Inventory-Management.exe
+D:\WorkSpace\Inventory-Management\Inventory-Management\bin\Debug\Inventory-Management.pdb
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.csprojAssemblyReference.cache
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.DbSetting.resources
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.Login.resources
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.Properties.Resources.resources
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.csproj.GenerateResource.cache
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.exe
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.pdb
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.Main.resources

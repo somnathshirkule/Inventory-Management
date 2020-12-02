@@ -47,5 +47,21 @@ namespace Inventory_Management
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Main main = new Main();
+            this.Hide();
+            main.ShowDialog();
+            this.Close();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            DbSetting dbsetting = new DbSetting();
+            this.Hide();
+            dbsetting.ShowDialog();
+            this.Close();
+        }
     }
 }
