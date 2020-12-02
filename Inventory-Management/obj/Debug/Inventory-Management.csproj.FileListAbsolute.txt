@@ -20,3 +20,10 @@ D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Manag
 D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.exe
 D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.pdb
 D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.Main.resources
+D:\WorkSpace\Inventory-Management\Inventory-Management\bin\Debug\JMaterialTextbox.dll
+D:\WorkSpace\Inventory-Management\Inventory-Management\bin\Debug\JMetroTextBox.dll
+D:\WorkSpace\Inventory-Management\Inventory-Management\bin\Debug\JTextBox.dll
+D:\WorkSpace\Inventory-Management\Inventory-Management\bin\Debug\JTextBox2.dll
+D:\WorkSpace\Inventory-Management\Inventory-Management\bin\Debug\JThinButton.dll
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.csproj.CopyComplete
+D:\WorkSpace\Inventory-Management\Inventory-Management\bin\Debug\FlatButton.dll
