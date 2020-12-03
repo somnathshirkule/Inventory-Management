@@ -69,5 +69,45 @@ namespace Inventory_Management.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cancel_26px {
+            get {
+                object obj = ResourceManager.GetObject("cancel_26px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap favpng_menu_bar_icon_design_hamburger_button_AMLtiY2D {
+            get {
+                object obj = ResourceManager.GetObject("favpng_menu-bar-icon-design-hamburger-button_AMLtiY2D", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap favpng_menu_bar_icon_design_hamburger_button_AMLtiY2D1 {
+            get {
+                object obj = ResourceManager.GetObject("favpng_menu-bar-icon-design-hamburger-button_AMLtiY2D1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_rounded_48px {
+            get {
+                object obj = ResourceManager.GetObject("menu_rounded_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

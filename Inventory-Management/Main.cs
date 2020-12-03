@@ -22,5 +22,24 @@ namespace Inventory_Management
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Login lg = new Login();
+            this.Hide();
+            lg.ShowDialog();
+            this.Close();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void jFlatButton1_Click(object sender, EventArgs e)
+        {
+            Login lg = new Login();
+            lg.ShowDialog();
+        }
     }
 }
