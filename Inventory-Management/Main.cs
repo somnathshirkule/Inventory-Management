@@ -36,10 +36,14 @@ namespace Inventory_Management
 
         }
 
-        private void jFlatButton1_Click(object sender, EventArgs e)
+      
+
+        private void button3_Click(object sender, EventArgs e)
         {
             Login lg = new Login();
+            this.Hide();
             lg.ShowDialog();
+            this.Close();
         }
     }
 }

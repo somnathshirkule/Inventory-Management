@@ -136,6 +136,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\bg.jpg" />
+    <None Include="Image\Available.png" />
+    <None Include="Image\buy.png.png" />
+    <None Include="Image\Sold.png.png" />
+    <None Include="Image\delete_26px.png" />
+    <None Include="Image\Real_Estate_%28203%29.png" />
+    <None Include="Image\Real_Estate_%283%29.jpg" />
+    <None Include="Image\database_48px.png" />
     <None Include="Image\menu_rounded_48px.png" />
     <None Include="Image\favpng_menu-bar-icon-design-hamburger-button_AMLtiY2D.png" />
     <None Include="Image\cancel_26px.png" />
