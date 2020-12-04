@@ -45,5 +45,34 @@ namespace Inventory_Management
             lg.ShowDialog();
             this.Close();
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_2(object sender, EventArgs e)
+        {
+            Sold sd = new Sold();
+            this.Hide();
+            sd.ShowDialog();
+            this.Close();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Purchased purchase = new Purchased();
+            this.Hide();
+            purchase.ShowDialog();
+            this.Close();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            RemainingStock restock = new RemainingStock();
+            this.Hide();
+            restock.ShowDialog();
+            this.Close();
+        }
     }
 }

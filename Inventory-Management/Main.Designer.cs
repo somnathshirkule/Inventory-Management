@@ -32,8 +32,11 @@ namespace Inventory_Management
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
@@ -41,9 +44,6 @@ namespace Inventory_Management
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -57,9 +57,9 @@ namespace Inventory_Management
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.panel1.Location = new System.Drawing.Point(1, 56);
+            this.panel1.Location = new System.Drawing.Point(1, 68);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(329, 692);
+            this.panel1.Size = new System.Drawing.Size(329, 680);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -69,9 +69,9 @@ namespace Inventory_Management
             this.panel2.Controls.Add(this.panel6);
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Location = new System.Drawing.Point(330, 135);
+            this.panel2.Location = new System.Drawing.Point(330, 68);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1036, 613);
+            this.panel2.Size = new System.Drawing.Size(1036, 680);
             this.panel2.TabIndex = 1;
             // 
             // panel6
@@ -80,10 +80,20 @@ namespace Inventory_Management
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.label4);
             this.panel6.Controls.Add(this.pictureBox3);
-            this.panel6.Location = new System.Drawing.Point(639, 28);
+            this.panel6.Location = new System.Drawing.Point(620, 92);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(311, 208);
             this.panel6.TabIndex = 2;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(3, 10);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(178, 30);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Remaining Stock";
             // 
             // panel5
             // 
@@ -91,10 +101,20 @@ namespace Inventory_Management
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.pictureBox2);
-            this.panel5.Location = new System.Drawing.Point(322, 28);
+            this.panel5.Location = new System.Drawing.Point(296, 92);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(311, 208);
             this.panel5.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(6, 10);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(178, 30);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Today Purchased";
             // 
             // panel4
             // 
@@ -102,10 +122,20 @@ namespace Inventory_Management
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.pictureBox1);
-            this.panel4.Location = new System.Drawing.Point(17, 28);
+            this.panel4.Location = new System.Drawing.Point(9, 92);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(275, 208);
             this.panel4.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(7, 11);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(121, 30);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Today Sold";
             // 
             // panel3
             // 
@@ -117,15 +147,16 @@ namespace Inventory_Management
             this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel3.Location = new System.Drawing.Point(1, 1);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1365, 55);
+            this.panel3.Size = new System.Drawing.Size(1365, 66);
             this.panel3.TabIndex = 2;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(100, 17);
+            this.label1.Location = new System.Drawing.Point(118, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 25);
             this.label1.TabIndex = 1;
@@ -146,7 +177,7 @@ namespace Inventory_Management
             // 
             this.button1.BackgroundImage = global::Inventory_Management.Properties.Resources.favpng_menu_bar_icon_design_hamburger_button_AMLtiY2D1;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Location = new System.Drawing.Point(69, 17);
+            this.button1.Location = new System.Drawing.Point(87, 30);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(25, 23);
             this.button1.TabIndex = 2;
@@ -154,6 +185,7 @@ namespace Inventory_Management
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::Inventory_Management.Properties.Resources.Available;
             this.pictureBox3.Location = new System.Drawing.Point(2, 45);
             this.pictureBox3.Name = "pictureBox3";
@@ -161,9 +193,11 @@ namespace Inventory_Management
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Inventory_Management.Properties.Resources.buy_png;
             this.pictureBox2.Location = new System.Drawing.Point(3, 45);
             this.pictureBox2.Name = "pictureBox2";
@@ -171,9 +205,11 @@ namespace Inventory_Management
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Inventory_Management.Properties.Resources.Sold_png;
             this.pictureBox1.Location = new System.Drawing.Point(3, 48);
             this.pictureBox1.Name = "pictureBox1";
@@ -181,36 +217,7 @@ namespace Inventory_Management
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(7, 11);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 30);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Today Sold";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 10);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(178, 30);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Today Purchased";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Nirmala UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 10);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(178, 30);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Remaining Stock";
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_2);
             // 
             // Main
             // 

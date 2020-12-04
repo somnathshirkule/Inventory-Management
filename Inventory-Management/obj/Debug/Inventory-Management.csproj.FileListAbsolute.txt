@@ -11,3 +11,6 @@ D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Manag
 D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.csproj.CopyComplete
 D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.Login.resources
 D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.Main.resources
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.Purchased.resources
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.RemainingStock.resources
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory_Management.Sold.resources
