@@ -42,5 +42,15 @@ namespace Inventory_Management
             this.Close();
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Server svr = new Server();
+            this.Hide();
+            svr.ShowDialog();
+            
+
+
+        }
     }
 }

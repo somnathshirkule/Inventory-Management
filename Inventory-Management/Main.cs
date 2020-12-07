@@ -12,6 +12,7 @@ namespace Inventory_Management
 {
     public partial class Main : Form
     {
+       
         public Main()
         {
             InitializeComponent();
@@ -20,7 +21,11 @@ namespace Inventory_Management
 
         private void Main_Load(object sender, EventArgs e)
         {
-
+            Tpurchasepnl.Hide();
+            tsoldpnl.Hide();
+            restockpnl.Hide();
+            
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -53,26 +58,62 @@ namespace Inventory_Management
 
         private void pictureBox1_Click_2(object sender, EventArgs e)
         {
-            Sold sd = new Sold();
-            this.Hide();
-            sd.ShowDialog();
-            this.Close();
+           
+            
+
         }
 
+        
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Purchased purchase = new Purchased();
-            this.Hide();
-            purchase.ShowDialog();
-            this.Close();
+            
+            
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            RemainingStock restock = new RemainingStock();
+            
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnlfpurchase_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Main m = new Main();
             this.Hide();
-            restock.ShowDialog();
+            m.ShowDialog();
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Main m = new Main();
+            this.Hide();
+            m.ShowDialog();
+            this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Main m = new Main();
+            this.Hide();
+            m.ShowDialog();
+            this.Close();
+        }
+
+        private void restockpnl_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        
     }
 }
