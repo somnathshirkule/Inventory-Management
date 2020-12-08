@@ -20,7 +20,7 @@ namespace Inventory_Management
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (StreamWriter sw = new StreamWriter("username.txt"))
+            using (StreamWriter sw = new StreamWriter("username.sys"))
             {
                 sw.WriteLine("Server Name="+txtserver.Text);
                 sw.WriteLine("User name="+txtserveruser.Text);

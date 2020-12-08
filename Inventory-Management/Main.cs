@@ -21,9 +21,10 @@ namespace Inventory_Management
 
         private void Main_Load(object sender, EventArgs e)
         {
-            Tpurchasepnl.Hide();
-            tsoldpnl.Hide();
-            restockpnl.Hide();
+            userControl11.Hide();
+            userControl21.Hide();
+            userControl31.Hide();
+            
             
             
         }
@@ -58,21 +59,31 @@ namespace Inventory_Management
 
         private void pictureBox1_Click_2(object sender, EventArgs e)
         {
-           
-            
+            userControl21.Hide();
+            userControl31.Hide();
+
+            userControl11.Show();
+            userControl11.BringToFront();
 
         }
 
         
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            
-            
+            userControl11.Hide();
+            userControl31.Hide();
+
+            userControl21.Show();
+            userControl21.BringToFront();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            
+            userControl11.Hide();
+            userControl21.Hide();
+
+            userControl31.Show();
+            userControl31.BringToFront();
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -114,6 +125,9 @@ namespace Inventory_Management
 
         }
 
-        
+        private void contextMenuStrip3_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 }

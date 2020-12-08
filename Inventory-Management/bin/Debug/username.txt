@@ -1,3 +1,0 @@
-Server Name=
-User name=
-Password=
