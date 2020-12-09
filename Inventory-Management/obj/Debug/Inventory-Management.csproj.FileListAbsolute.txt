@@ -16,3 +16,4 @@ D:\WorkSpace\Inventory-Management\Inventory-Management\bin\Debug\Inventory-Manag
 D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.csproj.CopyComplete
 D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.exe
 D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.pdb
+D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.csprojAssemblyReference.cache

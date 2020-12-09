@@ -169,6 +169,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\bg.jpg" />
+    <None Include="Image\logout_rounded_left_50px.png" />
+    <None Include="Image\kissclipart-report-icon-office-icon-3269aebd2ae76d4f.png" />
+    <None Include="Image\similar_items_50px.png" />
+    <None Include="Image\user_30px.png" />
+    <None Include="Image\new_product_32px.png" />
+    <None Include="Image\purchase_order_80px.png" />
+    <None Include="Image\shopping_cart_50px.png" />
+    <None Include="Image\home_26px.png" />
     <None Include="Image\settings_50px.png" />
     <None Include="Image\Available.png" />
     <None Include="Image\buy.png.png" />

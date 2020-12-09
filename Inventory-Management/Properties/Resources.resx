@@ -118,31 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="delete_26px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\delete_26px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="settings_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\settings_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kissclipart-report-icon-office-icon-3269aebd2ae76d4f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\kissclipart-report-icon-office-icon-3269aebd2ae76d4f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sold.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\Sold.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="database_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\database_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="favpng_menu-bar-icon-design-hamburger-button_AMLtiY2D1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\favpng_menu-bar-icon-design-hamburger-button_AMLtiY2D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\user_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_26px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\home_26px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="purchase_order_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\purchase_order_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="favpng_menu-bar-icon-design-hamburger-button_AMLtiY2D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\favpng_menu-bar-icon-design-hamburger-button_AMLtiY2D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Available" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\Available.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="favpng_menu-bar-icon-design-hamburger-button_AMLtiY2D1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\favpng_menu-bar-icon-design-hamburger-button_AMLtiY2D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="buy.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\buy.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sold.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\Sold.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="favpng_menu-bar-icon-design-hamburger-button_AMLtiY2D2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\favpng_menu-bar-icon-design-hamburger-button_AMLtiY2D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="similar_items_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\similar_items_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Available" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\Available.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="new_product_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\new_product_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="settings_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\settings_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="delete_26px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\delete_26px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping_cart_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\shopping_cart_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_rounded_left_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\logout_rounded_left_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
