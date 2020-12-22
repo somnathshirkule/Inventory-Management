@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace Inventory_Management
 {
     public partial class Main : Form
     {
-       
+
         public Main()
         {
             InitializeComponent();
@@ -24,9 +25,12 @@ namespace Inventory_Management
             userControl11.Hide();
             userControl21.Hide();
             userControl31.Hide();
-            
-            
-            
+            position(button9);
+
+        }
+         private void position (Button b)
+        {
+            p1.Location = new Point(b.Location.X - p1.Width, b.Location.Y);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -59,31 +63,19 @@ namespace Inventory_Management
 
         private void pictureBox1_Click_2(object sender, EventArgs e)
         {
-            userControl21.Hide();
-            userControl31.Hide();
-
-            userControl11.Show();
-            userControl11.BringToFront();
+          
 
         }
 
         
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            userControl11.Hide();
-            userControl31.Hide();
-
-            userControl21.Show();
-            userControl21.BringToFront();
+            
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            userControl11.Hide();
-            userControl21.Hide();
-
-            userControl31.Show();
-            userControl31.BringToFront();
+            
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
@@ -139,5 +131,171 @@ namespace Inventory_Management
         {
 
         }
+
+      
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            userControl11.Hide();
+            userControl31.Hide();
+            panel2.Hide();
+           // pnlftsold.Hide();
+            //pnlfpurchase.Hide();
+            //pnlfRestock.Hide();
+            userControl21.Show();
+            userControl21.BringToFront();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            userControl11.Hide();
+            userControl21.Hide();
+            panel2.Hide();
+            //pnlftsold.Hide();
+            //pnlfpurchase.Hide();
+            //pnlfRestock.Hide();
+            userControl31.Show();
+            userControl31.BringToFront();
+        }
+
+       
+
+        private void userControl11_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void userControl31_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_MouseHover(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void label6_MouseLeave(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+            userControl11.Hide();
+            userControl31.Hide();
+            panel2.Hide();
+            // pnlftsold.Hide();
+            //pnlfpurchase.Hide();
+            // pnlfRestock.Hide();
+            userControl21.Show();
+            userControl21.BringToFront();
+        }
+
+       
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            position(button9);
+            panel2.Show();
+            
+            userControl11.Hide();
+            userControl21.Hide();
+            userControl31.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            position(button1);
+            
+            
+            userControl21.Hide();
+            userControl31.Hide();
+            panel2.Hide();
+            // pnlftsold.Hide();
+            //pnlfpurchase.Hide();
+            // pnlfRestock.Hide();
+            userControl11.Show();
+            userControl11.BringToFront();
+            
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            position(button2);
+            userControl11.Hide();
+            userControl31.Hide();
+            panel2.Hide();
+            // pnlftsold.Hide();
+            //pnlfpurchase.Hide();
+            // pnlfRestock.Hide();
+            userControl21.Show();
+            userControl21.BringToFront();
+            
+        }
+
+       
+
+        private void userControl31_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            position(button10);
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            position(button7);
+            string messege = "Do you want to close This window?";
+            string title = "Close window";
+            MessageBoxButtons buttons = MessageBoxButtons.OKCancel;
+            DialogResult result = MessageBox.Show(messege, title, buttons);
+            if (result == DialogResult.OK)
+            {
+
+                Login lg = new Login();
+                this.Hide();
+                lg.ShowDialog();
+                this.Close();
+
+            }
+            else
+            {
+                //this.Show();
+            }
+        }
+
+        private void button4_Click_2(object sender, EventArgs e)
+        {
+            position(button4);
+            userControl11.Hide();
+            userControl21.Hide();
+            panel2.Hide();
+            //pnlftsold.Hide();
+            //pnlfpurchase.Hide();
+            //pnlfRestock.Hide();
+            userControl31.Show();
+            userControl31.BringToFront();
+            
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            position(button5);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            position(button6);
+        }
     }
-}
+    }

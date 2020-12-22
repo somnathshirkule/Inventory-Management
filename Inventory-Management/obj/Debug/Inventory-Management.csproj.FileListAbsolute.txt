@@ -17,3 +17,4 @@ D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Manag
 D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.exe
 D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.pdb
 D:\WorkSpace\Inventory-Management\Inventory-Management\obj\Debug\Inventory-Management.csprojAssemblyReference.cache
+D:\WorkSpace\Inventory-Management\Inventory-Management\bin\Debug\JDragControl.dll

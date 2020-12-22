@@ -36,6 +36,9 @@
     <Reference Include="FlatButton">
       <HintPath>C:\Users\mahes\Downloads\JControls\FlatButton.dll</HintPath>
     </Reference>
+    <Reference Include="JDragControl">
+      <HintPath>C:\Users\mahes\Downloads\JControls (1)\JDragControl.dll</HintPath>
+    </Reference>
     <Reference Include="JImageButton">
       <HintPath>C:\Users\mahes\Downloads\JControls\JImageButton.dll</HintPath>
     </Reference>
@@ -169,6 +172,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\bg.jpg" />
+    <None Include="Image\logout_rounded_left_16px.png" />
+    <None Include="Image\combo_chart_16px.png" />
+    <None Include="Image\sheet_of_paper_16px.png" />
+    <None Include="Image\user_16px.png" />
+    <None Include="Image\depot_16px.png" />
+    <None Include="Image\purchase_order_16px.png" />
+    <None Include="Image\checkout_16px.png" />
+    <None Include="Image\sell_16px.png" />
+    <None Include="Image\home_16px.png" />
+    <None Include="Image\top_menu_50px.png" />
+    <None Include="Image\combo_chart_50px.png" />
+    <None Include="Image\user_50px.png" />
+    <None Include="Image\depot_50px.png" />
+    <None Include="Image\document_50px.png" />
     <None Include="Image\logout_rounded_left_50px.png" />
     <None Include="Image\kissclipart-report-icon-office-icon-3269aebd2ae76d4f.png" />
     <None Include="Image\similar_items_50px.png" />

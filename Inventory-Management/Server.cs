@@ -16,6 +16,7 @@ namespace Inventory_Management
         public Server()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -47,6 +48,11 @@ namespace Inventory_Management
                 mn.ShowDialog();
                 this.Hide();
             }
+        }
+
+        private void Server_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

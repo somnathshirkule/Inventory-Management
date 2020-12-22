@@ -38,6 +38,7 @@ namespace Inventory_Management
 
         private void button3_Click(object sender, EventArgs e)
         {
+            Application.Exit();
             this.Hide();
             this.Close();
 
