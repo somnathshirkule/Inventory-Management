@@ -50,7 +50,7 @@ namespace Inventory_Management
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pictureBox3);
             this.Name = "UserControl3";
-            this.Size = new System.Drawing.Size(475, 254);
+            this.Size = new System.Drawing.Size(949, 541);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 

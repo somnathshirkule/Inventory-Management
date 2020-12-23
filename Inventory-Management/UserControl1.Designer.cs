@@ -38,7 +38,7 @@ namespace Inventory_Management
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Inventory_Management.Properties.Resources.Sold_png;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(112, 110);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -47,9 +47,10 @@ namespace Inventory_Management
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(191, 41);
+            this.textBox1.Location = new System.Drawing.Point(189, 189);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(179, 24);
             this.textBox1.TabIndex = 3;
             // 
             // UserControl1
@@ -59,7 +60,7 @@ namespace Inventory_Management
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(847, 376);
+            this.Size = new System.Drawing.Size(943, 547);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
