@@ -30,6 +30,10 @@ namespace Inventory_Management
 
         private void button1_Click(object sender, EventArgs e)
         {
+            CurrentUser.username = textBox1.Text.Trim();
+            CurrentUser.password = textBox2.Text.Trim();
+            CurrentUser.rights = null;
+            CurrentUser.loginTime = DateTime.Now.ToString().Trim();
             Main main = new Main();
             this.Hide();
             main.ShowDialog();

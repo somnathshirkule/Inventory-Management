@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -13,11 +14,22 @@ namespace Inventory_Management
 {
     public partial class Main : Form
     {
-
+        Thread t1;
         public Main()
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.None;
+            timer1.Start();
+            //t1 = new Thread(new ThreadStart(timeChanger));
+            //t1.Start();
+        }
+        private void timeChanger()
+        {
+            while (true)
+            {
+                //label1.Text = DateTime.Now.ToString("HH:mm:ss tt");
+                
+            }
         }
 
         private void Main_Load(object sender, EventArgs e)
@@ -255,8 +267,8 @@ namespace Inventory_Management
         private void button7_Click(object sender, EventArgs e)
         {
             position(button7);
-            string messege = "Do you want to close This window?";
-            string title = "Close window";
+            string messege = "Do you want to logout?";
+            string title = "Logout";
             MessageBoxButtons buttons = MessageBoxButtons.OKCancel;
             DialogResult result = MessageBox.Show(messege, title, buttons);
             if (result == DialogResult.OK)
@@ -296,6 +308,31 @@ namespace Inventory_Management
         private void button6_Click(object sender, EventArgs e)
         {
             position(button6);
+        }
+
+        private void panel2_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            UserForm f1 = new UserForm();
+            //f1.Visible=true;
+            f1.ShowDialog();
+            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            string dateTime = DateTime.Now.ToString("HH:mm:ss tt");
+            string username = CurrentUser.username;
+            button3.Text = username + " | " + dateTime;
         }
     }
     }

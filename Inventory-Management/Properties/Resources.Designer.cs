@@ -253,16 +253,6 @@ namespace Inventory_Management.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap logout_rounded_left_50px {
-            get {
-                object obj = ResourceManager.GetObject("logout_rounded_left_50px", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap new_product_32px {
             get {
                 object obj = ResourceManager.GetObject("new_product_32px", resourceCulture);
@@ -346,6 +336,16 @@ namespace Inventory_Management.Properties {
         internal static System.Drawing.Bitmap similar_items_50px {
             get {
                 object obj = ResourceManager.GetObject("similar_items_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sold {
+            get {
+                object obj = ResourceManager.GetObject("sold", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

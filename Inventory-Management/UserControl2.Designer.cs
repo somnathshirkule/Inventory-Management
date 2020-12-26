@@ -82,7 +82,7 @@ namespace Inventory_Management
             this.textBox1.Location = new System.Drawing.Point(249, 135);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(181, 22);
+            this.textBox1.Size = new System.Drawing.Size(181, 25);
             this.textBox1.TabIndex = 2;
             // 
             // label1
@@ -110,7 +110,7 @@ namespace Inventory_Management
             this.textBox2.Location = new System.Drawing.Point(249, 170);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(181, 22);
+            this.textBox2.Size = new System.Drawing.Size(181, 25);
             this.textBox2.TabIndex = 5;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -129,7 +129,7 @@ namespace Inventory_Management
             this.textBox3.Location = new System.Drawing.Point(249, 204);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(181, 22);
+            this.textBox3.Size = new System.Drawing.Size(181, 25);
             this.textBox3.TabIndex = 7;
             // 
             // label4
@@ -147,7 +147,7 @@ namespace Inventory_Management
             this.textBox4.Location = new System.Drawing.Point(249, 237);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(181, 22);
+            this.textBox4.Size = new System.Drawing.Size(181, 25);
             this.textBox4.TabIndex = 9;
             // 
             // label5
@@ -165,7 +165,7 @@ namespace Inventory_Management
             this.textBox5.Location = new System.Drawing.Point(249, 267);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(181, 22);
+            this.textBox5.Size = new System.Drawing.Size(181, 25);
             this.textBox5.TabIndex = 11;
             // 
             // label6
@@ -183,7 +183,7 @@ namespace Inventory_Management
             this.textBox6.Location = new System.Drawing.Point(249, 297);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(181, 22);
+            this.textBox6.Size = new System.Drawing.Size(181, 25);
             this.textBox6.TabIndex = 13;
             // 
             // label8
@@ -221,7 +221,7 @@ namespace Inventory_Management
             this.textBox7.Location = new System.Drawing.Point(628, 204);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(181, 22);
+            this.textBox7.Size = new System.Drawing.Size(181, 25);
             this.textBox7.TabIndex = 21;
             // 
             // label10
@@ -239,7 +239,7 @@ namespace Inventory_Management
             this.textBox10.Location = new System.Drawing.Point(628, 237);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(181, 22);
+            this.textBox10.Size = new System.Drawing.Size(181, 25);
             this.textBox10.TabIndex = 23;
             // 
             // label11
@@ -257,7 +257,7 @@ namespace Inventory_Management
             this.textBox11.Location = new System.Drawing.Point(628, 267);
             this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(181, 22);
+            this.textBox11.Size = new System.Drawing.Size(181, 25);
             this.textBox11.TabIndex = 25;
             // 
             // label12
@@ -275,7 +275,7 @@ namespace Inventory_Management
             this.textBox12.Location = new System.Drawing.Point(628, 297);
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(181, 22);
+            this.textBox12.Size = new System.Drawing.Size(181, 25);
             this.textBox12.TabIndex = 27;
             // 
             // label13
@@ -339,7 +339,7 @@ namespace Inventory_Management
             this.textBox9.Location = new System.Drawing.Point(628, 364);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(181, 22);
+            this.textBox9.Size = new System.Drawing.Size(181, 25);
             this.textBox9.TabIndex = 34;
             // 
             // label16
@@ -357,7 +357,7 @@ namespace Inventory_Management
             this.textBox13.Location = new System.Drawing.Point(628, 397);
             this.textBox13.Multiline = true;
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(181, 22);
+            this.textBox13.Size = new System.Drawing.Size(181, 25);
             this.textBox13.TabIndex = 36;
             // 
             // label17
@@ -375,7 +375,7 @@ namespace Inventory_Management
             this.textBox14.Location = new System.Drawing.Point(628, 327);
             this.textBox14.Multiline = true;
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(181, 22);
+            this.textBox14.Size = new System.Drawing.Size(181, 25);
             this.textBox14.TabIndex = 38;
             // 
             // UserControl2
@@ -417,7 +417,7 @@ namespace Inventory_Management
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox2);
             this.Name = "UserControl2";
-            this.Size = new System.Drawing.Size(936, 540);
+            this.Size = new System.Drawing.Size(956, 576);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
